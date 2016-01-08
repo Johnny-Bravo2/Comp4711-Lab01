@@ -15,6 +15,12 @@
         $rate = 1000;
         $total = $hoursworked * $rate;
         echo 'I worked ' .$total;
+        if ($hoursworked > 40) {
+            $total = $hoursworked * $rate * 1.5;
+        } else {
+            $total = $hoursworked * $rate;
+        }
+        echo ($total > 0) ? 'I worked some things' .$total : "You're Weelcome";
         ?>
     </body>
 </html>
