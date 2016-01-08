@@ -11,6 +11,10 @@
         $what = 'nerrrrrrdddd';
         $level = '9001';
         echo 'hey, my name is ' .$name, '. and I am a level ' .$level, ' ' .$what;
+        $hoursworked = 10;
+        $rate = 1000;
+        $total = $hoursworked * $rate;
+        echo 'I worked ' .$total;
         ?>
     </body>
 </html>
